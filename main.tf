@@ -25,6 +25,7 @@ resource "aws_cloudwatch_metric_alarm" "CostAlloactionTagAlarm" {
   statistic           = var.statistic
   metric_name         = var.metric_name
   namespace           = var.namespace
+  period              = var.period
 }
 
 ########################################################

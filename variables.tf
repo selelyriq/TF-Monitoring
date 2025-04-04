@@ -63,6 +63,12 @@ variable "tags" {
   description = "The tags"
 }
 
+variable "period" {
+  description = "The period in seconds over which the specified statistic is applied"
+  type        = number
+  default     = 300
+}
+
 
 
 
