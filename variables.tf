@@ -48,11 +48,6 @@ variable "statistic" {
   description = "The statistic"
 }
 
-variable "instance_profile_name" {
-  type        = string
-  description = "The instance profile name"
-}
-
 variable "log_group_name" {
   type        = string
   description = "The log group name"
